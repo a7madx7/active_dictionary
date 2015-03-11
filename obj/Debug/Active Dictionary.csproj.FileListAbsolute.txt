@@ -1,0 +1,132 @@
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\bin\Debug\Active Dictionary.exe
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\bin\Debug\Active Dictionary.pdb
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\bin\Debug\FirstFloor.ModernUI.dll
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\bin\Debug\Microsoft.Windows.Shell.dll
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\bin\Debug\FirstFloor.ModernUI.xml
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary.csprojResolveAssemblyReference.cache
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\MainWindow.baml
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Content\About.baml
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Content\SettingsAppearance.baml
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\Home.baml
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\Settings.baml
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\App.baml
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\MainWindow.g.cs
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Content\About.g.cs
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Content\SettingsAppearance.g.cs
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\Home.g.cs
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\Settings.g.cs
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\App.g.cs
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary_MarkupCompile.cache
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary.g.resources
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary.exe
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary.pdb
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\About.baml
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\aboutAH.baml
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\About.g.cs
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\aboutAH.g.cs
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\aboutDev.baml
+c:\users\dr. ahmed\documents\visual studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\aboutDev.g.cs
+C:\Users\Dr. Ahmed\Documents\Visual Studio 2012\Projects\ActiveDict\Active Dictionary\bin\Debug\Active Dictionary.exe.config
+C:\Users\Dr. Ahmed\Documents\Visual Studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary_Content.g.cs
+C:\Users\Dr. Ahmed\Documents\Visual Studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Active_Dictionary.Properties.Resources.resources
+C:\Users\Dr. Ahmed\Documents\Visual Studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary.csproj.GenerateResource.Cache
+C:\Users\Dr. Ahmed\Documents\Visual Studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\aboutKhaterah.baml
+C:\Users\Dr. Ahmed\Documents\Visual Studio 2012\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\aboutKhaterah.g.cs
+C:\Users\Dr. Ahmed\Documents\Visual Studio 2012\Projects\ActiveDict\Active Dictionary\bin\Debug\active.mdb
+D:\Projects\ActiveDict\Active Dictionary\bin\Debug\Active Dictionary.exe.config
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary.exe
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary.pdb
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary.csprojResolveAssemblyReference.cache
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.add.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.adobe.bridge.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.arrow.collapsed.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.arrow.corner.up.right.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.arrow.down.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.arrow.expand.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.box.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.camera.flash.off.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.camera.flash.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.camera.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.cards.club.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.cards.diamond.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.cards.heart.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.cards.spade.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.check.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\appbar.clear.reflect.horizontal.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\ModernUI.HelloKitty.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\ModernUI.Love.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\ModernUI.Snowflakes.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\GU.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\Osama El sayed.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\CustomControls.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\MainWindow.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Content\SettingsAppearance.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\About.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\aboutDev.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\aboutKhaterah.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\browser.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\Home.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\present.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\r4.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\Settings.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\translator.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\App.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\MainWindow.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Content\ChangeMechanism.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Content\SettingsAppearance.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\About.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\aboutDev.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\aboutKhaterah.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\browser.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\Home.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\present.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\Settings.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\translator.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary_Content.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary_MarkupCompile.cache
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary_MarkupCompile.lref
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\CommunicateControl.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\CommunicateControl.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\SearchBox.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\SearchBox.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\App.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\version.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\version.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\App.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\ModernUI.HelloKitty.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\ModernUI.Love.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\ModernUI.Snowflakes.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\GU.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\Osama El sayed.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\CommunicateControl.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\CustomControls.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\MainWindow.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Content\SettingsAppearance.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\About.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\aboutKhaterah.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\browser.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\Home.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Assets\r4.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\Settings.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\translator.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\version.baml
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\App.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\CommunicateControl.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\MainWindow.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Content\ChangeMechanism.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Content\SettingsAppearance.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\About.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\aboutDev.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\aboutKhaterah.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\browser.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\Home.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\present.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\Settings.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\translator.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Pages\version.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary_Content.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary_MarkupCompile.cache
+F:\Developer\Projects\ActiveDict\Active Dictionary\obj\Debug\Active Dictionary_MarkupCompile.lref
+F:\Developer\Projects\ActiveDict\Active Dictionary\bin\Debug\Active Dictionary.exe.config

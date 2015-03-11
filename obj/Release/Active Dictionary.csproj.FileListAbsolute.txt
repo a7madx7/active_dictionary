@@ -1,0 +1,93 @@
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\Assets\Sound\clear.wav
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\Assets\Sound\click.wav
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\Assets\agp.png
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\Assets\me transparent.png
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\active.mdb
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\Active Dictionary.exe.config
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\Active Dictionary.exe
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\Active Dictionary.pdb
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\Awesomium.Core.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\awesomium.windows.controls.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\FirstFloor.ModernUI.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\Microsoft.Expression.Interactions.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\System.Windows.Interactivity.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\Awesomium.Core.xml
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\awesomium.windows.controls.xml
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\FirstFloor.ModernUI.xml
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\de\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\en\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\es\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\it\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\ru\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\de\System.Windows.Interactivity.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\en\System.Windows.Interactivity.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\es\System.Windows.Interactivity.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\fr\System.Windows.Interactivity.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\it\System.Windows.Interactivity.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\ja\System.Windows.Interactivity.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\ko\System.Windows.Interactivity.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\ru\System.Windows.Interactivity.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\awesomium.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\icudt.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\avcodec-53.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\avformat-53.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\avutil-51.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\libEGL.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\libGLESv2.dll
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\awesomium_process
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\inspector.pak
+D:\Projects\ActiveDict\Active Dictionary\bin\Release\xinput9_1_0.dll
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\App.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Assets\ModernUI.HelloKitty.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Assets\ModernUI.Love.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Assets\ModernUI.Snowflakes.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Assets\GU.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Assets\Osama El sayed.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\CommunicateControl.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\CustomControls.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\MainWindow.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Content\SettingsAppearance.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\About.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\aboutKhaterah.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\browser.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\Home.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Assets\r4.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\Settings.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\translator.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\version.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\App.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\CommunicateControl.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\MainWindow.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Content\ChangeMechanism.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Content\SettingsAppearance.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\About.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\aboutDev.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\aboutKhaterah.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\browser.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\Home.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\present.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\Settings.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\translator.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\version.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Active Dictionary_Content.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Active Dictionary_MarkupCompile.cache
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Active Dictionary_MarkupCompile.lref
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Assets\ModernUI.BingImage.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Content\ChangeMechanism.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\aboutDev.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Pages\present.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\SampleData\SampleDataSource\SampleDataSource.baml
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Active Dictionary.g.resources
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Active_Dictionary.Properties.Resources.resources
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Active Dictionary.csproj.GenerateResource.Cache
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Active Dictionary.exe
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Active Dictionary.pdb
+D:\Projects\ActiveDict\Active Dictionary\obj\Release\Active Dictionary.csprojResolveAssemblyReference.cache

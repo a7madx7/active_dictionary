@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA8E3737-2AFE-468D-A040-EE4CFB5EA3A6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Active_Dictionary</RootNamespace>
+    <AssemblyName>Active Dictionary</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ExpressionBlendVersion>12.0.40612.10</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Active_Dictionary.Classes.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>dict.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Awesomium.Core, Version=1.7.2.2, Culture=neutral, PublicKeyToken=e1a0d7c8071a5214, processorArchitecture=x86" />
+    <Reference Include="awesomium.windows.controls, Version=1.7.2.2, Culture=neutral, PublicKeyToken=7a34e179b8b61c39, processorArchitecture=x86" />
+    <Reference Include="FirstFloor.ModernUI, Version=1.0.6.0, Culture=neutral, PublicKeyToken=2d21ec3cd074c59a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\ModernUI.WPF.1.0.6\lib\net45\FirstFloor.ModernUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Controls" />
+    <Reference Include="Microsoft.Expression.Interactions">
+      <HintPath>C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\.NETFramework\v4.5\Libraries\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="StringParser">
+      <HintPath>bin\StringParser.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>C:\Program Files %28x86%29\Microsoft SDKs\Expression\Blend\.NETFramework\v4.5\Libraries\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WebResourceProvider">
+      <HintPath>bin\WebResourceProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\DiameterToParentDiameterConverter.cs" />
+    <Compile Include="Classes\GoogleSearch.cs" />
+    <Compile Include="Classes\IConfigurator.cs" />
+    <Compile Include="Classes\IDBDataGetter.cs" />
+    <Compile Include="Classes\Inteligence.cs" />
+    <Compile Include="Classes\Speaker.cs" />
+    <Compile Include="Classes\TranslationResult.cs" />
+    <Compile Include="Commands\DelegateCommand.cs" />
+    <Compile Include="CommunicateControl.xaml.cs">
+      <DependentUpon>CommunicateControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Translator.cs" />
+    <Compile Include="Models\WebResourceProvider.cs" />
+    <Compile Include="Pages\browser.xaml.cs">
+      <DependentUpon>browser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\version.xaml.cs">
+      <DependentUpon>version.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="SampleData\SampleDataSource\SampleDataSource.xaml.cs">
+      <DependentUpon>SampleDataSource.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\SampleFormViewModel.cs" />
+    <Compile Include="Commands\SampleMsgBoxCommand.cs" />
+    <Compile Include="Commands\SampleParameterCommand.cs" />
+    <Page Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BingImage.cs" />
+    <Compile Include="Classes\DBDataGetter.cs" />
+    <Compile Include="Classes\Configurator.cs" />
+    <Compile Include="Classes\Configuration.cs" />
+    <Compile Include="Classes\Program.cs" />
+    <Compile Include="Classes\Updater.cs" />
+    <Compile Include="Ekseer_DictionaryDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ekseer_DictionaryDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FlickrImageLoader.cs" />
+    <Compile Include="Pages\aboutKhaterah.xaml.cs">
+      <DependentUpon>aboutKhaterah.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\present.xaml.cs">
+      <DependentUpon>present.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\translator.xaml.cs">
+      <DependentUpon>translator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Page Include="Assets\ModernUI.BingImage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Assets\ModernUI.HelloKitty.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Assets\ModernUI.Love.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Assets\ModernUI.Snowflakes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Assets\GU.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Osama El sayed.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommunicateControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CustomControls.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Content\ChangeMechanism.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="Content\ChangeMechanism.xaml.cs">
+      <DependentUpon>ChangeMechanism.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Content\SettingsAppearance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="Content\SettingsAppearance.xaml.cs">
+      <DependentUpon>SettingsAppearance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\SettingsAppearanceViewModel.cs" />
+    <Page Include="Pages\About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\aboutDev.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\aboutKhaterah.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\browser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\present.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\r4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="Pages\About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\aboutAH.xaml.cs">
+      <DependentUpon>aboutDev.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Page Include="Pages\translator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\version.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SampleData\SampleDataSource\SampleDataSource.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Assets\agp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Assets\me transparent.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Ekseer_DictionaryDataSet.xsc">
+      <DependentUpon>Ekseer_DictionaryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Ekseer_DictionaryDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Ekseer_DictionaryDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Ekseer_DictionaryDataSet.xss">
+      <DependentUpon>Ekseer_DictionaryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\gu.png" />
+    <Content Include="Assets\osos.jpg" />
+    <Content Include="Assets\background.kitty.png" />
+    <Content Include="Assets\background.love.jpg" />
+    <Content Include="Assets\background.snowflakes.jpg" />
+    <Content Include="Assets\forever.jpg" />
+    <Content Include="Assets\Sound\clear.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Sound\click.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\dict.ico" />
+    <Content Include="bin\Release\Assets\background.kitty.png" />
+    <Content Include="bin\Release\Assets\background.love.jpg" />
+    <Content Include="bin\Release\Assets\background.snowflakes.jpg" />
+    <Content Include="bin\Release\Assets\forever.jpg" />
+    <Content Include="bin\Release\Assets\gu.png" />
+    <Content Include="bin\Release\Assets\osos.jpg" />
+    <Content Include="bin\Release\dict.ico" />
+    <Content Include="dict.ico" />
+    <Content Include="active.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Themes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <DesignTimeOnly Include="SampleData\SampleDataSource\SampleDataSource.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BlendEmbeddedFont Include="Fonts\mobily.ttf">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+      <AutoFill>True</AutoFill>
+    </BlendEmbeddedFont>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\web.png" />
+    <Resource Include="Assets\fb.png" />
+    <Resource Include="Assets\gp.png" />
+    <Resource Include="Assets\tw.png" />
+    <Resource Include="Assets\yt.png" />
+    <BlendEmbeddedFont Include="Fonts\Tachkili Font TTF.otf">
+      <IsSystemFont>True</IsSystemFont>
+      <All>True</All>
+      <AutoFill>True</AutoFill>
+    </BlendEmbeddedFont>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Expression\Blend\.NETFramework\v4.5\Microsoft.Expression.Blend.WPF.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

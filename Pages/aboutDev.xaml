@@ -1,0 +1,36 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+    xmlns:Active_Dictionary="clr-namespace:Active_Dictionary" x:Class="Active_Dictionary.Pages.aboutAH"
+    mc:Ignorable="d" HorizontalAlignment="Left" VerticalAlignment="Top" Height="663.505">
+    <Grid Margin="0,10,0,0" HorizontalAlignment="Left" Width="555.441">
+        <Image HorizontalAlignment="Left" Height="222.734" Margin="-6.811,-7.024,0,0" VerticalAlignment="Top"
+               Width="152.792" Source="pack://siteoforigin:,,,/Assets/me transparent.png" Stretch="UniformToFill"
+               Opacity="0.7" SnapsToDevicePixels="True" ClipToBounds="True"
+               Clip="M163.781,96.6105 C163.781,149.69086 124.18081,192.721 75.3315,192.721 C26.48219,192.721 -13.118,149.69086 -13.118,96.6105 C-13.118,43.530137 26.48219,0.5 75.3315,0.5 C124.18081,0.5 163.781,43.530137 163.781,96.6105 z" />
+        <TextBlock Text="عن المبرمج"
+                   Style="{StaticResource Heading2}"
+                   TextAlignment="Center"
+                   FontSize="126.667" Foreground="{DynamicResource RadioButton.MouseOver.Glyph}"
+                   Margin="114.56,-55.029,-0.118,0" Height="173.161" VerticalAlignment="Top"
+                   FontFamily="/Active Dictionary;component/Fonts/#MO_Nawel">
+            <TextBlock.Background>
+                <ImageBrush />
+            </TextBlock.Background>
+        </TextBlock>
+        <TextBlock
+            UseLayoutRounding="True"
+            TextWrapping="WrapWithOverflow"
+            TextAlignment="Center"
+            FontWeight="Bold"
+            FontSize="32"
+            Foreground="{DynamicResource ahViolet}" Margin="10,188,-0.559,98" FontFamily="Segoe UI">
+            <Run FlowDirection="RightToLeft" Language="ar-eg"
+                 Text="أحمد حمدي... طالب بالفرقه الثانيه بكلية الصيدله جامعة الأسكندريه... مبرمج بالفطره... مصمم مبدع.... مؤسس خاطره... صحاب قناه تعليميه على اليوتيوب... أحب صناعة أشياء صغيره ذات وقع كبير... إذا أعجبك التطبيق لا تبخل بنشره... إذا أحببت أن تتواصل معي فإليك طرق التواصل معي" />
+        </TextBlock>
+        <Active_Dictionary:CommunicateControl Margin="0.956,546.149,5.338,24.507" />
+    </Grid>
+</UserControl>

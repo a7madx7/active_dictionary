@@ -1,0 +1,72 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+    xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+    mc:Ignorable="d"
+    x:Class="Active_Dictionary.CommunicateControl"
+    x:Name="UserControl"
+    d:DesignWidth="549.147" d:DesignHeight="82.849">
+
+    <Grid x:Name="LayoutRoot" d:IsLocked="True">
+        <Grid x:Name="grdCommunicate" d:IsLocked="True">
+            <Button x:Name="btnFB" HorizontalAlignment="Left" Height="81.998" Margin="444.468,0,0,0"
+                    VerticalAlignment="Top" Width="104.679" Cursor="Hand" FontSize="32" FontWeight="Bold"
+                    Foreground="{DynamicResource ahViolet}" ToolTip="زيارة الصفحة الشخصيه على فيس بوك"
+                    Background="{x:Null}" Click="Click" d:IsLocked="True">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ei:PlaySoundAction Source="Assets/Sound/click.wav" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+                <Image x:Name="image" Source="Assets/fb.png" Stretch="UniformToFill" Cursor="Hand" d:IsLocked="True" />
+            </Button>
+            <Button x:Name="btnTwitter" HorizontalAlignment="Left" Margin="112.224,0.851,0,0" VerticalAlignment="Top"
+                    Width="{Binding Width, ElementName=btnFB}" Cursor="Hand" FontSize="32" FontWeight="Bold"
+                    Foreground="{DynamicResource ahViolet}" ToolTip="تابعني على تويتر" Background="{x:Null}"
+                    Height="{Binding Height, ElementName=btnFB}" Click="Click" d:IsLocked="True">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ei:PlaySoundAction Source="Assets/Sound/click.wav" Volume="1" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+                <Image Source="Assets/tw.png" Stretch="UniformToFill" Cursor="Hand" d:IsLocked="True" />
+            </Button>
+            <Button x:Name="btnWebsite" HorizontalAlignment="Left" Height="{Binding Height, ElementName=btnFB}"
+                    Margin="0,0.851,0,0" VerticalAlignment="Top" Width="{Binding Width, ElementName=btnFB}"
+                    Cursor="Hand" FontSize="32" FontWeight="Bold" Foreground="{DynamicResource ahViolet}"
+                    ToolTip="موقعي الشخصي" Background="{x:Null}" Click="Click" d:IsLocked="True">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ei:PlaySoundAction Source="Assets/Sound/click.wav" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+                <Image Source="Assets/web.png" Stretch="UniformToFill" Cursor="Hand" d:IsLocked="True" />
+            </Button>
+            <Button x:Name="btnYoutube" HorizontalAlignment="Left" Height="{Binding Height, ElementName=btnFB}"
+                    Margin="332.789,0.851,0,0" VerticalAlignment="Top" Width="{Binding Width, ElementName=btnFB}"
+                    Cursor="Hand" FontSize="32" FontWeight="Bold" Foreground="{DynamicResource ahViolet}"
+                    ToolTip="اشترك في قناتي على يوتيوب" Background="{x:Null}" Click="Click" d:IsLocked="True">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ei:PlaySoundAction Source="Assets/Sound/click.wav" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+                <Image Source="Assets/yt.png" Stretch="UniformToFill" Cursor="Hand" d:IsLocked="True" />
+            </Button>
+            <Button x:Name="btnGP" HorizontalAlignment="Left" Margin="222.014,0.851,0,0" VerticalAlignment="Top"
+                    Width="{Binding Width, ElementName=btnFB}" Cursor="Hand" FontSize="32" FontWeight="Bold"
+                    Foreground="{DynamicResource ahViolet}" ToolTip="+تابعني على جوجل" Background="{x:Null}"
+                    Height="{Binding Height, ElementName=btnFB}" Click="Click" d:IsLocked="True">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ei:PlaySoundAction Source="Assets/Sound/click.wav" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+                <Image Source="Assets/gp.png" Stretch="UniformToFill" Cursor="Hand" d:IsLocked="True" />
+            </Button>
+        </Grid>
+    </Grid>
+</UserControl>

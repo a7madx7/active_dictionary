@@ -1,0 +1,28 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:custom="http://schemas.awesomium.com/winfx" x:Name="UserControl" x:Class="Active_Dictionary.Pages.Browser"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="300" Unloaded="userControl_Unloaded">
+    <ScrollViewer x:Name="ScrollViewer">
+        <StackPanel MinWidth="200">
+            <TextBox x:Name="TxtSearch" HorizontalAlignment="Left" Height="29" TextWrapping="Wrap"
+                     VerticalAlignment="Top" Width="{Binding ActualWidth, ElementName=ScrollViewer}"
+                     ToolTip="اكتب هنا أي شئ للبحث عنه" TextChanged="txtSearch_TextChanged" ClipToBounds="True"
+                     SnapsToDevicePixels="True" />
+            <Canvas Height="{Binding ActualHeight, ElementName=ScrollViewer}"
+                    Width="{Binding ActualWidth, ElementName=ScrollViewer}">
+                <custom:WebControl x:Name="web" Height="{Binding ActualHeight, ElementName=ScrollViewer}"
+                                   Width="{Binding  ActualWidth, ElementName=ScrollViewer}" ClipToBounds="True"
+                                   SnapsToDevicePixels="True" IsTransparent="True"
+                                   Source="Http://www.facebook.com/khaterah.official" />
+                <ProgressBar x:Name="progressWaitForPage" Height="80.095" Canvas.Left="0" Canvas.Top="82.167"
+                             Width="{Binding ActualWidth, ElementName=web}" Background="{x:Null}"
+                             IsIndeterminate="True" SmallChange="0.3" ToolTip="جاري التحميل" ClipToBounds="True"
+                             SnapsToDevicePixels="True" Visibility="Hidden" />
+            </Canvas>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="Active_Dictionary.Pages.aboutKhaterah"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" Height="754" Width="522">
+    <Grid Style="{StaticResource ContentRoot}" x:Name="LayoutRoot">
+        <ScrollViewer>
+            <StackPanel MinWidth="200">
+                <TextBlock Text="إنما هي خاطره" Style="{StaticResource Heading2}" TextAlignment="Center" FontSize="64">
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                            <GradientStop Color="#FFA12DF1" Offset="1" />
+                            <GradientStop Color="#FF022ADE" />
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
+                </TextBlock>
+                <TextBlock
+                    Height="403"
+                    TextWrapping="Wrap"
+                    TextAlignment="Center"
+                    Foreground="{DynamicResource ahViolet}"
+                    FontSize="32">
+                    <Run FlowDirection="RightToLeft" Language="ar-eg"
+                         Text="خاطره هي فكره... هدف... ولدت من رحم برنامج خواطر لأحمد الشقيري حفظه الله... خاطره هي أسلوب حياه يدفعك دوماً للتطوير من ذاتك ومجتمعك وحضارتك... كنا نتقن البرمجه وتصميم البرامج فقررنا مساعدة أمتنا في المجال البرمجي فجاء مشروع القاموس النشط دليلاً على نجاح تجربتنا في العمل التطوعي." />
+                    <LineBreak /><Run FlowDirection="RightToLeft" Language="ar-eg" /><LineBreak />
+                    <Run FlowDirection="RightToLeft" Language="ar-eg" /><LineBreak />
+                    <Run FlowDirection="RightToLeft" Language="ar-eg" />
+                </TextBlock>
+                <TextBlock Height="57" TextWrapping="Wrap" Width="135" FontSize="29.333"
+                           FontFamily="/Active Dictionary;component/Fonts/#MO_Nawel" Foreground="#FFA9D31B"
+                           ToolTip="التوقيع">
+                    <Run FlowDirection="RightToLeft" Language="ar-eg" Text="أحمد حمدي" />
+                </TextBlock>
+                <!--<mui:BBCodeBlock BBCode="» navigate to the [url=/Pages/translator.xaml]translator page[/url]" x:Name="CodeBlock"/>-->
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
